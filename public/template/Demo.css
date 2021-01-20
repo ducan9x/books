@@ -66,9 +66,9 @@ a{
     outline: none;
 }
 #icon-search{
-    position: absolute;
+    position: relative;
     top: 27px;
-    left: 665px;
+    left: -715px;
     width: 22px;
 }
 #btn-search{
@@ -77,16 +77,20 @@ a{
     height: 28px;
     border-radius: 20px;
     border: 1px;
-    position: absolute;
-    top: 24px;
+    position: relative;
+    top: 20px;
     background: #057a45;
-    right: 665px;
+    right: 257px;
     color: white;
     cursor: pointer;
 }
+#menu{
+    width: 1169px;
+    margin: auto;
+    height: 100%;
+}
 .btn-group{
     float: right;
-    margin-top: 29px;
 }
 .btn-group>a{
     color: black;
@@ -103,10 +107,10 @@ a{
 }
 .container-category>p{
     position: absolute;
-    left: 69px;
     color: white;
     font-size: 20px;
-    top: -10px;
+    top: -13px;
+    left: 69px;
 }
 
 /* -----------------------------------body---------------------------- */
@@ -195,7 +199,7 @@ a{
     height: auto;
 }
 .container-body-content-left{
-    width: 870px;
+    width: 873px;
     min-height: 100px;
     float: left;
     /* background-color: red; */
@@ -219,7 +223,7 @@ a{
     background-color: #0a6f3c;
 }
 .container-body-content-right{
-    width: 269px;
+    width: 266px;
     height: auto;
     float: right;
     margin-left: 30px;
@@ -268,8 +272,7 @@ ul a{
 .container-category{
     width: 274px;
     height: 40px;
-    position: absolute;
-    left: 367px;
+    position: relative;
     cursor: pointer;
 }
 .container-category>li{
@@ -443,7 +446,7 @@ ul a{
     height: 218px;
     background-color: white;
     float: left;
-    margin: 11px;
+    margin: 0px 15px 22px 0px;
     padding: 10px;
     border: 1px solid #eaeaea;
 }

@@ -1,15 +1,16 @@
 import Header from '../Header/Header';
 import './App.css';
-import Body from '../Body/Body';
 import Footer from '../Footer/Footer';
+import RouteURL from '../RouteURL/RouteURL';
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div>
+    <Router>
       <Header />
-      <Body />
+      <RouteURL />
       <Footer />
-    </div>
+    </Router>
   );
 }
 
