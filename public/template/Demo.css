@@ -39,7 +39,7 @@ a{
 }
 .container-header-body{
     background-color: #ffffff;
-    width: 1171px;
+    width: 1172px;
     margin: auto;
     height: 85px;
 }
@@ -78,11 +78,12 @@ a{
     border-radius: 20px;
     border: 1px;
     position: relative;
-    top: 20px;
+    top: 24px;
     background: #057a45;
     right: 257px;
     color: white;
     cursor: pointer;
+    left: -257px;
 }
 #menu{
     width: 1169px;
