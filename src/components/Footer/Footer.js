@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 import './Footer.css';
-import Img1 from "./image/thanh-toan.PNG";
-import Img2 from "./image/dtbh.PNG";
-import Img3 from "./image/dtvc.PNG";
 class Footer extends Component {
     render() {
         return (
@@ -77,19 +74,19 @@ class Footer extends Component {
                                 <div className=" footer-body-left"> 
                                     <div className="wysiwyg-content">
                                         <span className="p-highlight">Chấp nhận thanh toán</span> 
-                                        <img src={Img1} />
+                                        <img src="./image/thanh-toan.PNG" />
                                     </div> 
                                 </div>
                                 <div className=" footer-body-left"> 
                                     <div className="wysiwyg-content">
                                         <span className="p-highlight">Đối tác vận chuyển</span> 
-                                        <img src={Img2} />
+                                        <img src="./image/dtbh.PNG" />
                                     </div> 
                                 </div>
                                 <div className=" footer-body-left"> 
                                     <div className="wysiwyg-content">
                                         <span className="p-highlight">Đối tác bán hàng</span> 
-                                        <img src={Img3} />
+                                        <img src="./image/dtvc.PNG" />
                                     </div> 
                                 </div>
                             </div>

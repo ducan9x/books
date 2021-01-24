@@ -2,7 +2,8 @@
     width: 1170px;
     margin: auto;
     background-color: white;
-    min-height: 300px;
+    height: auto;
+    padding: 20px;
 }
 .single-title{
     width: 100%;
@@ -11,8 +12,8 @@
 }
 .single-book-inf{
     width: 100%;
-    height: 500px;
-    border-bottom: 1px solid grey;
+    height: 409px;
+    /* border-bottom: 1px solid grey; */
     padding-top: 30px;
 }
 .title-link li{
@@ -39,7 +40,10 @@
     width: 300px;
     float: left;
     height: 100%;
-    background-color: rgb(88, 160, 116);
+    /* background-color: rgb(88, 160, 116); */
+}
+.book-infor-right-body span{
+    float: right;
 }
 .single-book-image{
     width: 242px;
@@ -62,4 +66,105 @@
 .icon-check{
     color: white;
     background-color:  #087b39;
+}
+.book-infor-right{
+    width: 250px;
+    height: 301px;
+    padding: 15px;
+    border: 1px solid #dcdbdb;
+    box-shadow: 0 0 0 5px #e8e8e8;
+    border-radius: 5px;
+}
+.book-infor-right-title{
+    line-height: 1.2;
+    text-align: left;
+    border-bottom: 1px dashed #c7c7c7;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.book-infor-right-body{
+    border-bottom: 1px dashed #c7c7c7;
+}
+.book-infor-right>button{
+    border: 1px solid #e1af04;
+    border-radius: 3px;
+    /* padding-left: 65px; */
+    height: 39px;
+    font-weight: bold;
+    width: 230px;
+    /* margin: auto; */
+    margin-left: 9px;
+    margin-top: 14px;
+    background-color: #e1af04;
+}
+#giabia{
+    color: #353535;
+    text-decoration: line-through;
+    line-height: 1.538;
+    font-size: 15px;
+}
+#giaban{
+    font-size: 20px;
+    color: #ca2027;
+    line-height: 1.2;
+    text-align: left;
+}
+#tietkiem{
+    font-size: 15px;
+    color: #353535;
+    line-height: 1.538;
+    color: #087b39;
+}
+#chatluong{
+    font-size: 12px;
+    line-height: 1.538;
+    color: #087b39;
+}
+.inf-author{
+    float: right;
+    width: 260px;
+    margin-left: 30px;
+    margin-top: -35px;
+    border: 1px solid #d1d3d4;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background: transparent;
+    box-shadow: 0 5px 0 0 #d9d9d9;
+    margin-right: 15px;
+}
+.single-book-content-title{
+    height: 48px;
+    /* padding: 20px; */
+    padding-left: 20px;
+    /* font-weight: bold; */
+    color: #008340;
+    font-size: 25px;
+    border-bottom: 1px dashed #c7c7c7
+}
+.green{
+    color:  #008340;
+}
+.thongtinctiet li{
+    width: 500px;
+    height: 30px;
+    float: left;
+}
+.thongtinctiet span{
+    margin-right: 227px;
+    float: right;
+}
+.divttchitiet{
+    width: 100%;
+    height: 174px;
+}
+.single-book-infor h3{
+    width: 70%;
+    margin: 0%;
+    margin-top: 20px;
+}
+.buttons_added span{
+    margin-right: 20px;
+    font-size: 20px;
+    margin-top: 2px;
 }

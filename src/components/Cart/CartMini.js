@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Cart.css';
-
+import { Link } from "react-router-dom";
 class CartMini extends Component {
     render() {
         return (
@@ -27,7 +27,7 @@ class CartMini extends Component {
                     </div>
                 </div>
 
-                <div className="cart-moreinfo"><a href="#">Xem Thêm</a></div>
+                <div className="cart-moreinfo"><Link to="/cart"><a href="#">Xem Thêm</a></Link></div>
             </div>
         );
     }

@@ -7,6 +7,7 @@
     white-space:nowrap;
     vertical-align:top;
     margin-left: 10px;
+    margin-top: 20px;
 }
 input{
     background-color: rgb(230, 230, 230);
@@ -49,7 +50,7 @@ input{
 .containerCartMini{
     width: 368px;
     height: auto;
-    background-color: rgb(230, 230, 230);
+    /* background-color: rgb(230, 230, 230); */
     z-index: 10000;
     position: absolute;
     right: 358px;
@@ -112,4 +113,53 @@ input{
     font-size: 15px;
     color: #f03737;
     margin: 0px;
+}
+.cart-container{
+    width: 100%;
+    min-height: 500px;
+    background-color: white;
+}
+.cart-container-body{
+    width: 1170px;
+    margin: auto;
+    /* background-color: #899ead; */
+    min-height: 500px;
+    padding-top: 20px;
+}
+.cart-container-body-title{
+    height: 50px;
+    margin: auto;
+    width: 22%;
+}
+.cart-container-body>h2{
+    text-align: center;
+    color: #117c47;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.cart-body{
+    /* background-color: #a27070; */
+    width: 718px;
+    min-height: 184px;
+    /* padding: 10px; */
+    padding: 30px;
+    border: 1px solid #ececec;
+    border-radius: 4px;
+    float: left;
+}
+.tt-cart{
+    float: left;
+    border: 1px solid #ececec;
+    margin-left:20px ;
+    width: 350px;
+    height: 184px;
+    /* background-color: blue; */
+}
+.img-cart{
+    width: 45px;
+    float: left;
+    margin-right: 13px;
+}
+.cart-book>p{
+    margin: -9px;
 }
