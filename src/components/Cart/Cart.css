@@ -118,6 +118,8 @@ input{
     width: 100%;
     min-height: 500px;
     background-color: white;
+    float: left;
+    padding-bottom: 28px;
 }
 .cart-container-body{
     width: 1170px;
@@ -138,7 +140,7 @@ input{
     text-transform: uppercase;
 }
 .cart-body{
-    /* background-color: #a27070; */
+    background-color: #f7f2f2;
     width: 718px;
     min-height: 184px;
     /* padding: 10px; */
@@ -152,7 +154,7 @@ input{
     border: 1px solid #ececec;
     margin-left:20px ;
     width: 350px;
-    height: 184px;
+    /* height: 184px; */
     /* background-color: blue; */
 }
 .img-cart{
@@ -160,6 +162,57 @@ input{
     float: left;
     margin-right: 13px;
 }
+.cart-book{
+    width: 97%;
+    height: 68px;
+    margin-top: 22px;
+    border: 1px solid #276f3f;
+    padding: 10px;
+}
+.cart-book>p>span{
+    float: right;
+}
+.cart-book>button{
+    float: right;
+    /* margin-top: 10px; */
+    margin-left: 20px;
+}
 .cart-book>p{
-    margin: -9px;
+    margin: 0px;
+}
+.soluong{
+    margin-top: 10px !important;
+}
+.cart-body>h2{
+    margin-top: 0px;
+}
+.tt-cart-title{
+    background: #117c47;
+    border-radius: 4px 4px 0 0;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px
+}
+.left{
+    width: 60%;
+}
+.right{
+    width: 40%;
+    align-items: right;
+    text-align: right;
+}
+.table{
+    width: 97%;
+    padding: 10px;
+}
+.total-price{
+    margin: 10px;
+    /* padding-top: 15px; */
+    border-top: 1px solid #8c8c8c;
+    /* display: flex */
+}
+.total-price span{
+    float: right;
 }
