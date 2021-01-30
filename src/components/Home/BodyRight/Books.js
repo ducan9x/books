@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class Books extends Component {
   format_curency(price) {
-  	return price.replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1.");
+  	return price.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1.");
   }
   render() {
       return (
