@@ -1,21 +1,17 @@
 import React, { Component } from 'react';
 import Body from '../Home/Body';
-import {Route} from "react-router-dom";
+import {Route,Switch} from "react-router-dom";
 import Single from '../Single/Single';
 import Cart from '../Cart/Cart';
 class RouteURL extends Component {
     render() {
         return (
             <div>
-                <Route exact path="/">
-                    <Body />
-                </Route>
-                <Route path="/single">
-                    <Single />
-                </Route>
-                <Route path="/cart">
-                    <Cart />
-                </Route>
+                <Switch>
+                    <Route exact path="/" component={Body} />
+                    <Route path="/chi-tiet/:data/:id/:slug.html" component={Single} />
+                    <Route path="/cart" component={Cart} />
+                </Switch>
             </div>
         );
     }

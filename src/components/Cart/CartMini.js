@@ -27,7 +27,7 @@ class CartMini extends Component {
                     </div>
                 </div>
 
-                <div className="cart-moreinfo"><Link to="/cart"><a href="#">Xem Thêm</a></Link></div>
+                <div className="cart-moreinfo"><Link to="/cart">Xem Thêm</Link></div>
             </div>
         );
     }

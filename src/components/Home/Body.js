@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import BodyLeft from './BodyLeft/BodyLeft';
-import BodyRight from './BodyRight/BodyRight';
+import BodyLeft from './BodyLeft';
+import BodyRight from './BodyRight';
 import Slide from '../Slide/Slide';
 
 class Body extends Component {

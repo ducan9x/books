@@ -283,7 +283,7 @@ ul a{
 .container-category:hover .category{
     display: block;
 }
-.category>a>li:hover{
+.category>li:hover{
     /* display: block; */
     background-color: rgb(157, 157, 238);
     
