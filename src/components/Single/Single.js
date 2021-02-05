@@ -2,11 +2,13 @@ import React, { Component } from 'react';
 import "./Single.css";
 import { CheckCircleOutlined } from '@ant-design/icons';
 import Data from "../book.json";
+import {Redirect} from 'react-router-dom';
 class Single extends Component {
     constructor(props){
         super(props);
         this.state = {
-            book : []
+            book : [],
+            isRedirect : false
         };
     }
     componentWillMount(){
@@ -22,10 +24,19 @@ class Single extends Component {
         else {
             this.setState({book : Data.listRight2});
         }
-        console.log(1)
+        
+    }
+    buttonBuy = () =>{
+        this.setState({
+            isRedirect : true
+        });
     }
     render() {
-        console.log(2)
+        if(this.state.isRedirect){
+            return(
+                <Redirect to="/"/>
+            )
+        }
         let bid = parseInt(this.props.match.params.id,10)
         let listBook = this.state.book.map((item,i)=>{
             if(item.id === bid){
@@ -77,7 +88,7 @@ class Single extends Component {
                                         <input className="plus is-form" type="button" defaultValue="+" />
                                     </div>
                                 </div>
-                                <button>MUA NGAY</button>
+                                <button onClick={this.buttonBuy}>MUA NGAY</button>
                             </div>
                         </div>
                     </div>
@@ -121,7 +132,7 @@ class Single extends Component {
             
         })
         return (
-            <div>
+            <div style={{backgroundColor: "white"}}>
                 {listBook}
             </div>
         );

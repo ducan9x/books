@@ -15,7 +15,7 @@ class Menu extends Component {
                                     <Link to="/"><span>Home</span><img id="icon-right" src="./image/icons8-chevron-right-24.png" /></Link>
                                 </li>
                                 <li>
-                                    <Link to="/single"><span>Single</span><img id="icon-right" src="./image/icons8-chevron-right-24.png" /></Link>
+                                    <Link to=""><span>Single</span><img id="icon-right" src="./image/icons8-chevron-right-24.png" /></Link>
                                 </li>
                                 <li>
                                     <Link to="/cart"><span>Giỏ hàng</span><img id="icon-right" src="./image/icons8-chevron-right-24.png" /></Link>
